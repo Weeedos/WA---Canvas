@@ -1,0 +1,28 @@
+body {
+    overflow: hidden;
+    margin: 10;
+    padding: 0;
+    height: 100%;
+}
+
+.nav{
+    border: solid;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.save{
+    margin-left: 1em;
+}
+
+.cislo{
+    margin-top: 1em;
+}
+
+.load{
+    margin-top: 1em;
+}
+
+.clearLocalStorage{
+    margin-top: 1em;
+}

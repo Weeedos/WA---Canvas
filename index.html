@@ -5,9 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Canvas</title>
 </head>
 <body>
-    
+    <div class="whole">
+        <div class="nav">
+            <label for="color">color</label>
+            <input id="color" name="color" type="color" />
+            <label for="size">width</label>
+            <input id="size" name="size" type="number" min="0" value="5" />
+            <button id="clear">clear</button>
+            <button class="save">save</button>
+            <input type="number" min="0" id="cislo" />
+            <button class="load">load</button>
+            <button class="clearLocalStorage">clearLocalStorage</button>
+        </div>
+        <div class="drawBoard">
+            <canvas class="canvas"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
